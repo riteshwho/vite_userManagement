@@ -1,0 +1,29 @@
+input {
+  padding: 0.7em;
+  margin: 0.4em;
+  background-color: white;
+}
+
+button{
+  cursor: pointer;
+  height: 2em;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: auto;
+}
+@media screen and (max-width: 800px){
+ form{
+  width: 40%;
+ }
+}
+
+@media screen and (max-width: 393px) {
+form{
+  width: 50%;
+}
+}
+
