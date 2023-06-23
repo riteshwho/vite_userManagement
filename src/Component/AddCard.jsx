@@ -47,7 +47,7 @@ const AddCard = ({ addUsers, updateUser, editableUser }) => {
   }
 
   function phonehandleChange(e) {
-    if (user.phone.length <= 10) {
+    if (user.phone.length <= 8) {
       setPhoneErr(true);
     } else {
       setPhoneErr(false);
